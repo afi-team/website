@@ -1,0 +1,24 @@
+{
+  "name": "afi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AFI",
+  "author": "shuangyang",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.3",
+    "gatsby-plugin-google-analytics": "^2.11.0",
+    "gatsby-plugin-offline": "^3.10.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
