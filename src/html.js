@@ -24,6 +24,8 @@ export default function HTML(props) {
         <script src='https://gw.alipayobjects.com/os/lib/jquery/3.4.1/dist/jquery.min.js' defer></script>
         <script src='/plugins.min.js' defer></script>
         <script src='/create.min.js' defer></script>
+        <script src='/script.js' defer></script>
+        <script src='/animation.js' defer></script>
         {props.preBodyComponents}
         <div
           key={`body`}
@@ -31,8 +33,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src='/script.js' defer></script>
-        <script src='/animation.js' defer></script>
       </body>
     </html>
   )
