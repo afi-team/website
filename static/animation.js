@@ -5,6 +5,7 @@ function plot(id, wordList) {
   if (!target) {
     return;
   }
+  THREE.ImageUtils.crossOrigin = '*';
   var { width: targetWidth, height: targetHeight } = target.getBoundingClientRect();
   targetHeight = Math.max(window.innerHeight, targetHeight);
   targetWidth = Math.min(targetWidth, window.innerWidth);
@@ -150,7 +151,7 @@ function plot(id, wordList) {
 
         var plane = new THREE.PlaneBufferGeometry(50000, 50000, 1, 1);
         var mat = new THREE.MeshBasicMaterial({
-          map: THREE.ImageUtils.loadTexture('/bg.png')
+          map: THREE.ImageUtils.loadTexture('https://gw.alipayobjects.com/mdn/rms_f3f48a/afts/img/A*W9msSZjkw9oAAAAAAAAAAAAAARQnAQ'),
         });
         var bg = new THREE.Mesh(plane, mat);
         bg.position.z = -10000;

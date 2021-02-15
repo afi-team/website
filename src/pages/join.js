@@ -27,7 +27,7 @@ export default function Join({ location }) {
                 </ul>
 
                 <a href="https://hire.alibaba-inc.com/i18n/positionDetail.html?positionId=641981" className="button button-md button-primary" target="_blank" rel="noreferrer">直接投简历</a>
-                <a className={`button button-md button-link ${style.buttonMai}`} href="https://maimai.cn/contact/share/card?u=zho31wtz0ifp&_share_channel=copy_link" target="_blank" rel="noreferrer">在脉脉跟 TL 直接聊</a>
+                <a className={`button button-md button-link ${style.buttonMai}`} href="https://maimai.cn/contact/share/card?u=zho31wtz0ifp&_share_channel=copy_link" target="_blank" rel="noreferrer">在脉脉跟 TL 先聊聊</a>
 
                 <h2 style={{ marginTop: 20 }}>FAQ</h2>
                 <ul>

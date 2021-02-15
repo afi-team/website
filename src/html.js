@@ -11,7 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="icon" href="https://gw.alipayobjects.com/mdn/rms_f3f48a/afts/img/A*cjpmTJd9Bu4AAAAAAAAAAAAAARQnAQ" type="image/png"/>
+        <link rel="icon" href="https://gw.alipayobjects.com/mdn/rms_f3f48a/afts/img/A*ZtzKRZPgCE8AAAAAAAAAAAAAARQnAQ" type="image/png"/>
         <link rel="stylesheet" href="/bootstrap.min.css" />
         <link rel="stylesheet" href="/plugins.min.css" />
         <link rel="stylesheet" href="/base.css" />
@@ -19,10 +19,9 @@ export default function HTML(props) {
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
-        <script src='/three.min.js' defer></script>
+        <script src='https://cdn.bootcdn.net/ajax/libs/three.js/r71/three.min.js' defer></script>
         <script src='/TweenMax.min.js' defer></script>
-        <script src='/jquery.min.js' defer></script>
-        <script src='/bootstrap.min.js' defer></script>
+        <script src='https://gw.alipayobjects.com/os/lib/jquery/3.4.1/dist/jquery.min.js' defer></script>
         <script src='/plugins.min.js' defer></script>
         <script src='/create.min.js' defer></script>
         {props.preBodyComponents}
