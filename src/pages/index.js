@@ -25,7 +25,7 @@ export default function Index({ location }) {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>AFI - 首页</title>
+        <title>AFI - 蚂蚁前端基础设施团队</title>
       </Helmet>
       <section id="intro" className="section section-hero section-hero-1">
         <div className="display-full-screen">
