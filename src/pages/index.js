@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
 import style from './style.module.css';
 import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
 export default function Index({ location }) {
   useEffect(() => {
@@ -23,6 +24,9 @@ export default function Index({ location }) {
 
   return (
     <Layout location={location}>
+      <Helmet>
+        <title>AFI - 首页</title>
+      </Helmet>
       <section id="intro" className="section section-hero section-hero-1">
         <div className="display-full-screen">
           <div className="hero-content" id="plot-target">

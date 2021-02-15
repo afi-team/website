@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
 import style from './style.module.css';
 
@@ -9,6 +10,9 @@ export default function Index({ location }) {
 
   return (
     <Layout location={location}>
+      <Helmet>
+        <title>AFI - 业务简介</title>
+      </Helmet>
       <section id="services" className={`section section-services section-services-1 `}>
         <span className={style.businessSlogan}>By Frontend, For Frontend.</span>
         <div className={`display-full-screen ${style.businessBackground}`}>

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
 import style from './style.module.css';
+import { Helmet } from 'react-helmet';
 const data = require('../data/fun.json');
 
 export default function Fun({ location }) {
@@ -10,6 +11,9 @@ export default function Fun({ location }) {
 
   return (
     <Layout location={location}>
+    <Helmet>
+      <title>AFI - 吃喝玩乐</title>
+    </Helmet>
       <section id="blog" class="section section-blog section-blog-1 pp-scrollable">
         <div class="display-wrap bg-gradient-side">
           <span class="bg-color bg-dark-60"></span>

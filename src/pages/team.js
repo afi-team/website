@@ -2,10 +2,14 @@ import React from 'react';
 import Layout from '../components/Layout';
 import style from './style.module.css';
 import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
 export default function Team({ location }) {
   return (
     <Layout location={location}>
+      <Helmet>
+        <title>AFI - 团队概况</title>
+      </Helmet>
       <section id="about" className={`section section-about section-about-1 pp-scrollable`}>
         <div className="full-screen">
           <div className="display-center">

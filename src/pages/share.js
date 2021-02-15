@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
 import style from './style.module.css';
 const data = require('../data/share.json');
@@ -7,6 +8,9 @@ export default function Share({ location }) {
   const { internal = [], external = [] } = data;
   return (
     <Layout location={location}>
+      <Helmet>
+        <title>AFI - 技术分享</title>
+      </Helmet>
       <section id="about" className={`section section-about section-about-1 pp-scrollable ${style.shareSection}`}>
       <div className="section-resume section-resume-1 my-resume">
         <div className="container">
