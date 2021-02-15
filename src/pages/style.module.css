@@ -1,0 +1,133 @@
+.slogan {
+  color: #fff;
+  font-size: 50px !important;
+}
+
+@media (max-width: 1500px) {
+  .slogan {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 38px !important;
+  }
+
+  .businessSlogan {
+    font-size: 24px !important;
+    width: 180px !important;
+    margin-left: -90px !important;
+  }
+}
+
+
+.link {
+  text-decoration: underline;
+}
+
+.part1,
+.part2,
+.part3 {
+  display: block;
+  line-height: 1.3;
+}
+
+.part1 {
+  font-weight: 500;
+}
+
+.part2 {
+  font-weight: 500;
+}
+
+.part3 {
+  font-weight: 900;
+}
+
+.sup {
+  font-size: 16px;
+  top: -2em;
+}
+
+.siteText {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.textLink {
+  margin-bottom: 0 !important;
+}
+
+.extraNote {
+  color: #eee !important;
+  font-size: 10px !important;
+  white-space: nowrap;
+  opacity: .4;
+}
+
+.footer {
+  height: 50px !important;
+}
+
+.footerLink {
+  margin-right: 12px;
+}
+
+.serviceIcon::before {
+  top: 16px !important;
+  left: 2px !important;
+  font-size: 22px !important;
+}
+
+.smallerIcon::before {
+  font-size: 18px !important;
+}
+
+
+.businessBackground {
+  background-size: cover;
+  position: relative;
+}
+
+.businessSlogan {
+  display: block;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -150px;
+  width: 800px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.logoFamily {
+  font-family: 'Lexend Mega';
+  display: inline !important;
+}
+
+.shareSection {
+  padding-top: 10%;
+}
+
+.buttonMai {
+  margin-left: 12px;
+}
+
+.notice {
+  position: absolute;
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-size: 12px;
+  opacity: .5;
+  top: 22%;
+  left: 50%;
+  margin-left: -150px;
+}

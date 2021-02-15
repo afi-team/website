@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Lexend Mega';
+  src: url('/LexendMega-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+  font-family: 'Lexend Mega';
+  font-size: 36px;
+  color: #fff;
+}
+
+.display-full-screen {
+  height: 100vh !important;
+  overflow: hidden;
+}
+
+.section {
+  height: 100vh;
+}
+
+
+.section.section-about .full-screen .container {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.section ul > li > a {
+  text-decoration: underline;
+}

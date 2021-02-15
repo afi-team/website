@@ -1,0 +1,32 @@
+{
+  "external": [
+    {
+      "title": "把前端性能监控做到极致 - ArchSummit",
+      "author": "双扬",
+      "date": "2019",
+      "description": "在衡量 Web 页面性能时，最普遍的做法是通过 YSlow、Lighthouse 等工具对页面进行一次性的诊断分析……",
+      "link": "https://www.infoq.cn/article/gcsw1ufbtiwyw5cuwoeo"
+    },
+    {
+      "title": "如何借数据解决构建时性能问题 - 前端早早聊",
+      "author": "陆沉",
+      "date": "2020",
+      "description": "通过前端应用构建时的数据采集、加工、解析，我们找到了解决构建问题的全新思路。",
+      "link": "https://www.yuque.com/zaotalk/conf/pzce57#3407a25c"
+    }
+  ],
+  "internal": [
+    {
+      "title": "写给前端工程师的大数据入门课",
+      "author": "轩恒",
+      "date": "2020",
+      "description": "如何快速掌握集团内部的大数据开发及分析工具？从实际例子出发让你踏入大数据世界之门。"
+    },
+    {
+      "title": "菜鸟自制脚本语言",
+      "author": "门特",
+      "date": "2020",
+      "description": "写代码时常遇到的 Unexpcted Token 是什么意思？AST、LL、LR 又是哪路神仙？"
+    }
+  ]
+}
