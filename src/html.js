@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <link rel="icon" href="https://gw.alipayobjects.com/mdn/rms_f3f48a/afts/img/A*A662To7nsWUAAAAAAAAAAAAAARQnAQ" type="image/png"/>
         <link rel="stylesheet" href="/bootstrap.min.css" />
         <link rel="stylesheet" href="/plugins.min.css" />
         <link rel="stylesheet" href="/base.css" />
