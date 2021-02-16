@@ -9,7 +9,6 @@ on:
     branches: [ main ]
   workflow_dispatch:
     
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -23,9 +22,13 @@ jobs:
         with:
           node-version: 14.x
 
-      - name: Instal & Build & Deploy
+      - name: Instal & Build
         run: |
           npm install
-          npm run deploy
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          npm run build
+          
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          branch: gh-pages
+          folder: public
