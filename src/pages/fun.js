@@ -14,38 +14,38 @@ export default function Fun({ location }) {
     <Helmet>
       <title>AFI - 吃喝玩乐</title>
     </Helmet>
-      <section id="blog" class="section section-blog section-blog-1 pp-scrollable">
-        <div class="display-wrap bg-gradient-side">
-          <span class="bg-color bg-dark-60"></span>
+      <section id="blog" className="section section-blog section-blog-1 pp-scrollable">
+        <div className="display-wrap bg-gradient-side">
+          <span className="bg-color bg-dark-60"></span>
           <span className={style.notice}>更喜欢一个人回家玩游戏？<br />没问题，我们不强制任何团建，也没有酒桌文化。</span>
-          <div class="display-screen">
-            <div class="section-title-2">
-              <div class="container">
-                <div class="inner max-w-576">
+          <div className="display-screen">
+            <div className="section-title-2">
+              <div className="container">
+                <div className="inner max-w-576">
                   <h2><span>FUN</span></h2>
                   <h3>玩的开心，吃的满足，活得痛快！</h3>
-                  <div class="divider divider-1-reverse divider-1-1"></div>
-                  <div class="divider divider-1-reverse divider-1-2"></div>
+                  <div className="divider divider-1-reverse divider-1-1"></div>
+                  <div className="divider divider-1-reverse divider-1-2"></div>
                 </div>
               </div>
             </div>
-            <div class="container">
-              <div class="owl-carousel carousel-blog-1 carousel-style-1" data-items="3" data-margin="30">
+            <div className="container">
+              <div className="owl-carousel carousel-blog-1 carousel-style-1" data-items="3" data-margin="30">
                 {data.map((d, i) => {
                   const { title, date, img } = d;
                   return (
-                    <div class="post-item" key={i}>
+                    <div className="post-item" key={i}>
                       <a href="#">
-                        <div class="post-image bg-primary bg-primary">
+                        <div className="post-image bg-primary bg-primary">
                           <img src={img}  />
                         </div>
                       </a>
-                      <div class="post-content">
-                        <div class="post-data">
-                          <h4 class="post-title">
+                      <div className="post-content">
+                        <div className="post-data">
+                          <h4 className="post-title">
                             <a href="#">{title}</a>
                           </h4>
-                          <div class="post-date"><i class="ti-time"></i>{date}</div>
+                          <div className="post-date"><i className="ti-time"></i>{date}</div>
                         </div>
                       </div>
                     </div>

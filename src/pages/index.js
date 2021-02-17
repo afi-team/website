@@ -6,20 +6,25 @@ import { Helmet } from 'react-helmet';
 
 export default function Index({ location }) {
   useEffect(() => {
-    return window.plot('plot-target', [
-      'DevOps',
-      '监控报警',
-      'CI / CD',
-      '服务编排',
-      'K8S',
-      '变更防御',
-      '资源调度',
-      '实时计算',
-      'Node.js',
-      '研发迭代',
-      'Serverless',
-      '数据资产',
-    ]);
+    let cancel;
+    setTimeout(() => {
+      cancel = window.plot('plot-target', [
+        'DevOps',
+        '监控报警',
+        '持续集成',
+        '服务编排',
+        'K8S',
+        '变更防御',
+        '资源调度',
+        '实时计算',
+        'Node.js',
+        '研发迭代',
+        'Serverless',
+        '数据资产',
+      ]);
+    });
+
+    return () => cancel();
   }, []);
 
   return (

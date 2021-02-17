@@ -46,17 +46,19 @@ function plot(id, wordList) {
             this.cancelRaf();
           }
 
-          setTimeout(() => {
-            this.scene.traverse(object => {
-              if (!object.isMesh) return
-              object.geometry.dispose()
+          this.scene.traverse(object => {
+            if (!object.isMesh) {
+              return;
+            }
+            object.geometry.dispose();
 
-              if (object.material.isMaterial) {
-                cleanMaterial(object.material)
-              } else {
-                for (const material of object.material) cleanMaterial(material)
+            if (object.material.isMaterial) {
+              cleanMaterial(object.material);
+            } else {
+              for (const material of object.material) {
+                cleanMaterial(material);
               }
-            });
+            }
           });
 
           function cleanMaterial(material) {
@@ -87,11 +89,11 @@ function plot(id, wordList) {
         this.cancelRaf = this.update();
       };
       BasicView.prototype.update = function() {
-        var rafTimer = requestAnimationFrame(this.update.bind(this));
+        this.rafTimer = requestAnimationFrame(this.update.bind(this));
         this.onTick();
         this.render();
 
-        return () => cancelAnimationFrame(rafTimer);
+        return () => cancelAnimationFrame(this.rafTimer);
       };
       BasicView.prototype.render = function() {
         this.renderer.render(this.scene, this.camera);
@@ -289,18 +291,18 @@ function plot(id, wordList) {
             word.position.x = fromObj.x;
             word.position.y = fromObj.y;
             word.position.z = fromObj.z;
-            var toRotationObj = {
-              z: 0
-            };
-            var fromRotationObj = {
-              z: 10 * Math.PI * (Math.random() - 0.5)
-            };
-            word.rotation.z = fromRotationObj.z;
+            // var toRotationObj = {
+            //   z: 0
+            // };
+            // var fromRotationObj = {
+            //   z: 10 * Math.PI * (Math.random() - 0.5)
+            // };
+            // word.rotation.z = fromRotationObj.z;
             var delay = (Cubic.easeInOut).getRatio(cnt / 1600) * 3.0 + 1.5 * Math.random();
-            timeline.to(word.rotation, 6.0, {
-              z: toRotationObj.z,
-              ease: Cubic.easeInOut
-            }, delay);
+            // timeline.to(word.rotation, 6.0, {
+            //   z: toRotationObj.z,
+            //   ease: Cubic.easeInOut
+            // }, delay);
             //
             word.visible = false;
             timeline.set(word, {
@@ -348,7 +350,7 @@ function plot(id, wordList) {
         } else if (Math.random() < 0.5) {
           timeline.set(this.camera.position, {
             x: 100,
-            y: +1000,
+            y: +500,
             z: 1000
           }, 0);
           timeline.to(this.camera.position, 14.0, {
@@ -359,8 +361,8 @@ function plot(id, wordList) {
           }, 0);
         } else {
           timeline.set(this.camera.position, {
-            x: -3000,
-            y: 3000,
+            x: -800,
+            y: 500,
             z: 0
           }, 0);
           timeline.to(this.camera.position, 15.0, {
@@ -408,7 +410,6 @@ function plot(id, wordList) {
       DemoIconsWorld.prototype.onTick = function() {
         _super.prototype.onTick.call(this);
         this.camera.lookAt(this.HELPER_ZERO);
-        // 背景をカメラの反対側に配置
         var vec = this.camera.position.clone();
         vec.negate();
         vec.normalize();

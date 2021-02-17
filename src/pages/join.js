@@ -23,11 +23,23 @@ export default function Join({ location }) {
                   <li>有 Webpack、Rollup、TypeScript、React 等源码贡献或阅读经验，<code>加分</code></li>
                   <li>主导过团队框架升级、工作套件升级（CLI、构建工具、编辑器等），<code>加分</code></li>
                   <li><Link to="/business">业务简介</Link> 中提到的内容任意一项有深入的探索或显著成果，<code>大加分</code></li>
-                  <li>写 CSS 特别溜而且享受这个过程的，<code>不加分，但希望你们教教我们</code></li>
+                  <li>写 CSS 特别溜而且享受这个过程的，<code>不加分，但期待你能带带我们🤣</code></li>
                 </ul>
 
-                <a href="https://hire.alibaba-inc.com/i18n/positionDetail.html?positionId=641981" className="button button-md button-primary" target="_blank" rel="noreferrer">直接投简历</a>
-                <a className={`button button-md button-link ${style.buttonMai}`} href="https://maimai.cn/contact/share/card?u=zho31wtz0ifp&_share_channel=copy_link" target="_blank" rel="noreferrer">在脉脉跟 TL 先聊聊</a>
+                <a href="https://hire.alibaba-inc.com/i18n/positionDetail.html?positionId=641981" className="button button-md button-primary" target="_blank" rel="noreferrer">投简历</a>
+                <a className={`button button-md button-link ${style.buttonMai}`} href="https://maimai.cn/contact/share/card?u=zho31wtz0ifp&_share_channel=copy_link" target="_blank" rel="noreferrer">在脉脉聊聊</a>
+                <p>* 投简历或脉脉联系时请注明来自 AFI 网站</p>
+                <h2 style={{ marginTop: 20 }}>团队优势</h2>
+                <ul>
+                  <li>无频繁变动的外部需求，对自己的产品负责即可</li>
+                  <li>无冗长会议、PPT，无抓手、闭环、PUA，更多时间 Coding</li>
+                  <li>不考虑兼容性问题，只需兼容 latest Chromium</li>
+                  <li>有成熟的导师和培养机制，帮助新人更好落地</li>
+                  <li>在前端领域能够做到更深入的探索和实践</li>
+                  <li>在服务端甚至数据领域同样可以做到深入的探索和实践</li>
+                  <li>自由、平等、开放、有爱的团队文化</li>
+                  <li>男女比例在技术团队里不算低</li>
+                </ul>
 
                 <h2 style={{ marginTop: 20 }}>FAQ</h2>
                 <ul>
