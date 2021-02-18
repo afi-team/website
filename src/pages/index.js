@@ -54,10 +54,10 @@ export default function Index({ location }) {
                   等全链路服务能力。我们的系统平均每天响应数十亿次请求、处理上百亿监控日志，为蚂蚁前端业务发展保驾护航。
                 </p>
                 <div className={style.heroAction}>
-                  <Link to="/join" className="button button-md button-light">加入我们</Link>
+                  <Link to="/join/" className="button button-md button-light">加入我们</Link>
                   <div className={style.extraHeroAction}>
-                    <Link to="/team" className={style.footerLink}>认识团队</Link>
-                    <Link to="/business" className={style.footerLink}>了解业务</Link>
+                    <Link to="/team/" className={style.footerLink}>认识团队</Link>
+                    <Link to="/business/" className={style.footerLink}>了解业务</Link>
                   </div>
                 </div>
               </div>
@@ -68,8 +68,8 @@ export default function Index({ location }) {
                   </li>
                 </ul>
                 <p className={style.textLink}>
-                  <Link to="/team" className={style.footerLink}>认识团队</Link>
-                  <Link to="/business" className={style.footerLink}>了解业务</Link>
+                  <Link to="/team/" className={style.footerLink}>认识团队</Link>
+                  <Link to="/business/" className={style.footerLink}>了解业务</Link>
                 </p>
                 <p className={style.extraNote}>* 包括但不限于小程序、H5、Node.js 服务端、npm 包等</p>
               </div>

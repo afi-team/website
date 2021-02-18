@@ -23,32 +23,32 @@ export default function Layout({ children, location }) {
               <span className="anchor">首页</span>
             </Link>
           </li>
-          <li data-menuanchor="about" className={location.pathname.startsWith('/business') ? 'active' : ''}>
-            <Link to="/business">
+          <li data-menuanchor="about" className={location.pathname.startsWith('/business/') ? 'active' : ''}>
+            <Link to="/business/">
               <span className="count">02</span>
               <span className="anchor">了解业务</span>
             </Link>
           </li>
-          <li data-menuanchor="services" className={location.pathname.startsWith('/team') ? 'active' : ''}>
-            <Link to="/team">
+          <li data-menuanchor="services" className={location.pathname.startsWith('/team/') ? 'active' : ''}>
+            <Link to="/team/">
               <span className="count">03</span>
               <span className="anchor">认识团队</span>
             </Link>
           </li>
-          <li data-menuanchor="portfolio" className={location.pathname.startsWith('/share') ? 'active' : ''}>
-            <Link to="/share">
+          <li data-menuanchor="portfolio" className={location.pathname.startsWith('/share/') ? 'active' : ''}>
+            <Link to="/share/">
               <span className="count">04</span>
               <span className="anchor">技术分享</span>
             </Link>
           </li>
-          <li data-menuanchor="blog" className={location.pathname.startsWith('/fun') ? 'active' : ''}>
-            <Link to="/fun">
+          <li data-menuanchor="blog" className={location.pathname.startsWith('/fun/') ? 'active' : ''}>
+            <Link to="/fun/">
               <span className="count">05</span>
               <span className="anchor">吃喝玩乐</span>
             </Link>
           </li>
-          <li data-menuanchor="contact" className={location.pathname.startsWith('/join') ? 'active' : ''}>
-            <Link to="/join">
+          <li data-menuanchor="contact" className={location.pathname.startsWith('/join/') ? 'active' : ''}>
+            <Link to="/join/">
               <span className="count">06</span>
               <span className="anchor">加入我们</span>
             </Link>
@@ -65,28 +65,28 @@ export default function Layout({ children, location }) {
                 <span className="anchor">首页</span>
               </Link>
             </li>
-            <li data-menuanchor="about" className={location.pathname.startsWith('/business') ? 'active' : ''}>
-              <Link to="/business">
+            <li data-menuanchor="about" className={location.pathname.startsWith('/business/') ? 'active' : ''}>
+              <Link to="/business/">
                 <span className="anchor">了解业务</span>
               </Link>
             </li>
-            <li data-menuanchor="services" className={location.pathname.startsWith('/team') ? 'active' : ''}>
-              <Link to="/team">
+            <li data-menuanchor="services" className={location.pathname.startsWith('/team/') ? 'active' : ''}>
+              <Link to="/team/">
                 <span className="anchor">认识团队</span>
               </Link>
             </li>
-            <li data-menuanchor="portfolio" className={location.pathname.startsWith('/share') ? 'active' : ''}>
-              <Link to="/share">
+            <li data-menuanchor="portfolio" className={location.pathname.startsWith('/share/') ? 'active' : ''}>
+              <Link to="/share/">
                 <span className="anchor">技术分享</span>
               </Link>
             </li>
-            <li data-menuanchor="blog" className={location.pathname.startsWith('/fun') ? 'active' : ''}>
-              <Link to="/fun">
+            <li data-menuanchor="blog" className={location.pathname.startsWith('/fun/') ? 'active' : ''}>
+              <Link to="/fun/">
                 <span className="anchor">吃喝玩乐</span>
               </Link>
             </li>
-            <li data-menuanchor="contact" className={location.pathname.startsWith('/join') ? 'active' : ''}>
-              <Link to="/join">
+            <li data-menuanchor="contact" className={location.pathname.startsWith('/join/') ? 'active' : ''}>
+              <Link to="/join/">
                 <span className="anchor">加入我们</span>
               </Link>
             </li>
