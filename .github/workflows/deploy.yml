@@ -32,3 +32,6 @@ jobs:
         with:
           branch: gh-pages
           folder: public
+          token: ${{ secrets.GH_TOKEN }}
+          repository-name: afi-team/afi-team.github.io
+          
