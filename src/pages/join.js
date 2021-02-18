@@ -23,7 +23,7 @@ export default function Join({ location }) {
                   <li>有 Webpack、Rollup、TypeScript、React 等源码贡献或阅读经验，<code>加分</code></li>
                   <li>主导过团队框架升级、工作套件升级（CLI、构建工具、编辑器等），<code>加分</code></li>
                   <li><Link to="/business">业务简介</Link> 中提到的内容任意一项有深入的探索或显著成果，<code>大加分</code></li>
-                  <li>写 CSS 特别溜而且享受这个过程的，<code>不加分，但期待你能带带我们🤣</code></li>
+                  <li>写 CSS 特别溜而且享受这个过程的，<code>不加分，但熟练掌握 CSS preprocessors 的加分🤣</code></li>
                 </ul>
 
                 <a href="https://hire.alibaba-inc.com/i18n/positionDetail.html?positionId=641981" className="button button-md button-primary" target="_blank" rel="noreferrer">投简历</a>
