@@ -35,3 +35,15 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           repository-name: afi-team/afi-team.github.io
           
+      - name: Init Aliyun OSS
+        uses: jerray/setup-aliyun-cli-action@v1.0.0
+        with:
+          aliyun-cli-version: '3.0.29'
+          mode: AK
+          access-key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
+          access-key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
+          region: ${{ secrets.ALIYUN_REGION }}
+          
+      - name: Deploy to Aliyun OSS
+        run: aliyun oss cp ./public oss://afi-team/ -r -u
+
