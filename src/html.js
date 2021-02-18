@@ -25,7 +25,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         <script src='https://cdn.bootcdn.net/ajax/libs/three.js/r71/three.min.js'></script>
-        <script src='https://gw.alipayobjects.com/os/lib/zepto/1.1.7/dist/zepto.min.js' ></script>
+        <script src='https://gw.alipayobjects.com/os/lib/jquery/3.4.1/dist/jquery.min.js'></script>
         <script src='/vendor1.js'></script>
         <script src='/vendor2.js'></script>
         <script src='/vendor3.js'></script>
