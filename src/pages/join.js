@@ -26,7 +26,7 @@ export default function Join({ location }) {
                   <li>写 CSS 特别溜而且享受这个过程的，<code>不加分，但熟练掌握 CSS preprocessors 的加分🤣</code></li>
                 </ul>
 
-                <a href="https://hire.alibaba-inc.com/i18n/positionDetail.html?positionId=641981" className="button button-md button-primary" target="_blank" rel="noreferrer">投简历</a>
+                <a href="https://job.alibaba.com/zhaopin/position_detail.htm?trace=qrcode_share&positionCode=GP694876" className="button button-md button-primary" target="_blank" rel="noreferrer">投简历</a>
                 <a className={`button button-md button-link ${style.buttonMai}`} href="https://maimai.cn/contact/share/card?u=zho31wtz0ifp&_share_channel=copy_link" target="_blank" rel="noreferrer">在脉脉聊聊</a>
                 <p>* 投简历或脉脉联系时请注明来自 AFI 网站</p>
                 <h2 style={{ marginTop: 20 }}>团队优势</h2>
