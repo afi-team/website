@@ -3,7 +3,7 @@
 </p>
 <p align="center">蚂蚁前端基础设施团队（<strong>A</strong>nt <strong>F</strong>rontend <strong>I</strong>nfrastructure）</p>
 
-主站： [https://afi.team](https://afi.team) 
+主站：[https://afi.team](https://afi.team) 
 
 镜像：[https://afi-team.github.io](https://afi-team.github.io)
 
