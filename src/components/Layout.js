@@ -26,13 +26,13 @@ export default function Layout({ children, location }) {
           <li data-menuanchor="about" className={location.pathname.startsWith('/business') ? 'active' : ''}>
             <Link to="/business">
               <span className="count">02</span>
-              <span className="anchor">业务简介</span>
+              <span className="anchor">了解业务</span>
             </Link>
           </li>
           <li data-menuanchor="services" className={location.pathname.startsWith('/team') ? 'active' : ''}>
             <Link to="/team">
               <span className="count">03</span>
-              <span className="anchor">团队概况</span>
+              <span className="anchor">认识团队</span>
             </Link>
           </li>
           <li data-menuanchor="portfolio" className={location.pathname.startsWith('/share') ? 'active' : ''}>
@@ -67,12 +67,12 @@ export default function Layout({ children, location }) {
             </li>
             <li data-menuanchor="about" className={location.pathname.startsWith('/business') ? 'active' : ''}>
               <Link to="/business">
-                <span className="anchor">业务简介</span>
+                <span className="anchor">了解业务</span>
               </Link>
             </li>
             <li data-menuanchor="services" className={location.pathname.startsWith('/team') ? 'active' : ''}>
               <Link to="/team">
-                <span className="anchor">团队概况</span>
+                <span className="anchor">认识团队</span>
               </Link>
             </li>
             <li data-menuanchor="portfolio" className={location.pathname.startsWith('/share') ? 'active' : ''}>

@@ -51,8 +51,15 @@ export default function Index({ location }) {
                   <span className="typo-em test">持</span><span className="typo-em">续</span><span className="typo-em">集</span><span className="typo-em">成</span>、
                   <span className="typo-em">监</span><span className="typo-em">控</span><span className="typo-em">报</span><span className="typo-em">警</span>、
                   <span className="typo-em">数</span><span className="typo-em">据</span><span className="typo-em">分</span><span className="typo-em">析</span>
-                  等全链路服务能力。我们的系统平均每天响应数十亿次请求、处理上百亿监控日志，为蚂蚁前端业务发展保驾护航。</p>
-                <Link to="/join" className="button button-md button-light">加入我们</Link>
+                  等全链路服务能力。我们的系统平均每天响应数十亿次请求、处理上百亿监控日志，为蚂蚁前端业务发展保驾护航。
+                </p>
+                <div className={style.heroAction}>
+                  <Link to="/join" className="button button-md button-light">加入我们</Link>
+                  <div className={style.extraHeroAction}>
+                    <Link to="/team" className={style.footerLink}>认识团队</Link>
+                    <Link to="/business" className={style.footerLink}>了解业务</Link>
+                  </div>
+                </div>
               </div>
               <div className={`site-sidebar-links ${style.footer}`}>
                 <ul>

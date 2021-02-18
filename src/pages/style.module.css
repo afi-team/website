@@ -3,27 +3,11 @@
   font-size: 50px !important;
 }
 
-@media (max-width: 1500px) {
-  .slogan {
-    font-size: 40px !important;
-  }
-}
 
-@media (max-width: 768px) {
-  .slogan {
-    font-size: 38px !important;
-  }
-
-  .businessSlogan {
-    font-size: 24px !important;
-    width: 180px !important;
-    margin-left: -90px !important;
-  }
-}
-
-
-.link {
-  text-decoration: underline;
+.extraHeroAction {
+  display: none;
+  margin-top: 12px;
+  margin-left: 30px;
 }
 
 .part1,
@@ -63,6 +47,7 @@
   margin-bottom: 0 !important;
 }
 
+
 .extraNote {
   color: #eee !important;
   font-size: 10px !important;
@@ -75,7 +60,7 @@
 }
 
 .footerLink {
-  margin-right: 12px;
+  margin-right: 16px;
 }
 
 .serviceIcon::before {
@@ -112,9 +97,6 @@
   display: inline !important;
 }
 
-.shareSection {
-  padding-top: 10%;
-}
 
 .buttonMai {
   margin-left: 12px;
@@ -130,4 +112,39 @@
   top: 20px;
   left: 50%;
   margin-left: -150px;
+}
+
+
+@media (max-width: 1500px) {
+  .slogan {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 38px !important;
+  }
+
+  .businessSlogan {
+    font-size: 24px !important;
+    width: 180px !important;
+    margin-left: -90px !important;
+  }
+
+  .textLink {
+    display: none !important;
+  }
+
+  .extraHeroAction {
+    display: block !important;
+  }
+
+  .shareSection {
+    padding-top: 50px;
+  }
+
+  .notice {
+    margin-top: 170px;
+  }
 }
