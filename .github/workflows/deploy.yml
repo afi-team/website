@@ -43,6 +43,8 @@ jobs:
           access-key-id: ${{ secrets.ALIYUN_ACCESS_KEY_ID }}
           access-key-secret: ${{ secrets.ALIYUN_ACCESS_KEY_SECRET }}
           region: ${{ secrets.ALIYUN_REGION }}
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
           
       - name: Deploy to Aliyun OSS
         run: aliyun oss cp ./public oss://afi-team/ -r -u
