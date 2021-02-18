@@ -24,14 +24,14 @@ export default function HTML(props) {
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
-        {props.postBodyComponents}
         <script src='https://cdn.bootcdn.net/ajax/libs/three.js/r71/three.min.js'></script>
         <script src='https://gw.alipayobjects.com/os/lib/zepto/1.1.7/dist/zepto.min.js' ></script>
         <script src='/vendor1.js'></script>
         <script src='/vendor2.js'></script>
         <script src='/vendor3.js'></script>
-        <script src='/animation.js' async></script>
-        <script src='/script.js' async></script>
+        <script src='/animation.js'></script>
+        <script src='/script.js'></script>
+        {props.postBodyComponents}
       </body>
     </html>
   )
