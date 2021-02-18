@@ -1965,7 +1965,7 @@ About
   width: 50%;
   content: "";
   opacity: .1;
-  position: absolute;
+position: absolute;
 }
 .section-about-1 .section-title-1 {
   padding: 0 15px;
@@ -1980,7 +1980,7 @@ About
 }
 @media (max-width: 768px) {
   .section-about-1 .section-title-1 {
-      padding-top: 100px;
+      padding-top: 200px;
       padding-bottom: 100px;
   }
   .section-about-1 .my-resume .container {
@@ -2516,7 +2516,7 @@ Services
 }
 @media (max-width: 720px) {
   .section-services-1 .box .inner {
-      bottom: 100px;
+      bottom: 220px;
   }
   .section-services-1 .owl-carousel .owl-prev,
   .section-services-1 .owl-carousel .owl-next {
@@ -3357,4 +3357,13 @@ Animations
   overflow: hidden;
   white-space: nowrap;
   content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
+}
+
+.owl-carousel .owl-nav button.owl-prev i,
+  .owl-carousel .owl-nav button.owl-next i {
+  font-size: 32px;
+}
+
+.section-services-1 .owl-carousel .owl-prev, .section-services-1 .owl-carousel .owl-next {
+  bottom: 130px;
 }
