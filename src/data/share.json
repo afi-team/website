@@ -20,6 +20,13 @@
       "date": "2021",
       "description": "从小程序研发流程的优化与提效到大前端标准化研发流程的抽象与提炼",
       "link": "https://www.yuque.com/zaotalk/conf/vg30dk#3407a25c"
+    },
+    {
+      "title": "蚂蚁前端灰度监控与变更防御 - GMTC",
+      "author": "陆沉",
+      "date": "2021",
+      "description": "如何通过建⽴⼀个基于发布标识的全视⻆的前端监控，以及研发平台如何设⽴变更防线与⻔禁，基于灰度监控……",
+      "link": "https://gmtc.infoq.cn/2021/beijing/presentation/3526"
     }
   ],
   "internal": [
